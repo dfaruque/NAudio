@@ -220,12 +220,9 @@ namespace NAudio.CoreAudioApi.Interfaces
         /// <summary>
         /// Gets the type of data in this PropVariant
         /// </summary>
-        public VarEnum DataType
-        {
-            get { return (VarEnum) vt; }
-        }
+        public VarEnum DataType => (VarEnum) vt;
 
-    /// <summary>
+        /// <summary>
         /// Property value
         /// </summary>
         public object Value
@@ -266,6 +263,8 @@ namespace NAudio.CoreAudioApi.Interfaces
                             default:
                                 throw new NotSupportedException("PropVariant VT_BOOL must be either -1 or 0");
                         }
+                    case VarEnum.VT_FILETIME:
+                        return DateTime.FromFileTime((((long)filetime.dwHighDateTime) << 32) + filetime.dwLowDateTime);
                 }
                 throw new NotImplementedException("PropVariant " + ve);
             }

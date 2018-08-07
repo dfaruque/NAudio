@@ -32,22 +32,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{778D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{BA7F6DBB-9FC4-49E6-92E4-621EFE4BBBBC}"
 	ProjectSection(SolutionItems) = preProject
+		Docs\AsioPlayback.md = Docs\AsioPlayback.md
+		Docs\AsioRecording.md = Docs\AsioRecording.md
 		Docs\ConcatenatingAudio.md = Docs\ConcatenatingAudio.md
 		Docs\ConvertBetweenStereoAndMono.md = Docs\ConvertBetweenStereoAndMono.md
 		Docs\ConvertMp3ToWav.md = Docs\ConvertMp3ToWav.md
+		Docs\EnumerateAcmDrivers.md = Docs\EnumerateAcmDrivers.md
 		Docs\EnumerateMediaFoundationTransforms.md = Docs\EnumerateMediaFoundationTransforms.md
 		Docs\EnumerateOutputDevices.md = Docs\EnumerateOutputDevices.md
+		Docs\FadeInOutSampleProvider.md = Docs\FadeInOutSampleProvider.md
 		Docs\MediaFoundationEncoder.md = Docs\MediaFoundationEncoder.md
+		Docs\MidiEvent.md = Docs\MidiEvent.md
+		Docs\MidiFile.md = Docs\MidiFile.md
+		Docs\MidiInAndOut.md = Docs\MidiInAndOut.md
 		Docs\MixTwoAudioFilesToWav.md = Docs\MixTwoAudioFilesToWav.md
 		Docs\OffsetSampleProvider.md = Docs\OffsetSampleProvider.md
 		Docs\OutputDeviceTypes.md = Docs\OutputDeviceTypes.md
 		Docs\PlayAudioFileConsoleApp.md = Docs\PlayAudioFileConsoleApp.md
 		Docs\PlayAudioFileWinForms.md = Docs\PlayAudioFileWinForms.md
 		Docs\PlayAudioFromUrl.md = Docs\PlayAudioFromUrl.md
+		Docs\PlaybackStopped.md = Docs\PlaybackStopped.md
 		Docs\PlaySineWave.md = Docs\PlaySineWave.md
+		Docs\RawSourceWaveStream.md = Docs\RawSourceWaveStream.md
+		Docs\RecordingLevelMeter.md = Docs\RecordingLevelMeter.md
 		Docs\RecordWavFileWinFormsWaveIn.md = Docs\RecordWavFileWinFormsWaveIn.md
+		Docs\Resampling.md = Docs\Resampling.md
 		Docs\WasapiLoopbackCapture.md = Docs\WasapiLoopbackCapture.md
 		Docs\WasapiOut.md = Docs\WasapiOut.md
+		Docs\WaveFormRendering.md = Docs\WaveFormRendering.md
+		Docs\WaveProviders.md = Docs\WaveProviders.md
 	EndProjectSection
 EndProject
 Global
